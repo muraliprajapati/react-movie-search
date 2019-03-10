@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 56px;
+  background-color: #151515;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type='text'] {
+  text-align: center;
+  /* border: none; */
+  width: 50%;
+  height: 32px;
+  border-radius: 32px;
+  margin: 16px;
+  /* background-color: rgba(235, 235, 235, 0.2); */
+  background-color: transparent;
+  border: 1px solid gray;
+  color: white;
+  text-transform: capitalize;
+  transition: all 500ms;
+}
+
+input:focus {
+  transition: all 500ms;
+  box-shadow: -1px 1px 24px 9px rgba(18, 53, 151, 0.72);
+}
+
+.container {
+  display: flex;
+  /* width: 80%; */
+  margin: 0px 64px;
+  justify-content: center;
+  text-align: center;
+}

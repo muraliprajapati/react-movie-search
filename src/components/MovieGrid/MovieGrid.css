@@ -1,0 +1,9 @@
+.movie-grid {
+  max-width: 80vw;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+  align-items: center;
+  justify-items: center;
+  margin-top: 16px;
+}
