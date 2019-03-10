@@ -51,6 +51,7 @@ class App extends Component {
             type="text"
             value={this.state.query}
             onChange={this.handleOnChange}
+            placeholder="Search"
           />
         </form>
         <div className="container">
