@@ -37,8 +37,8 @@ class App extends Component {
     // const API_KEY = 'a6f54267423cc7a32964f9e176005116';
     // const BASE_URL = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}`;
 
-    const OMDB_API_KEY = 'd3f6c0  ee';
-    const OMDB_BASE_URL = `http://www.omdbapi.com/?apikey=d3f6c0ee`;
+    const OMDB_API_KEY = 'd3f6c0ee';
+    const OMDB_BASE_URL = `https://www.omdbapi.com/?apikey=d3f6c0ee`;
 
     // const searchUrl = `${BASE_URL}&query=${movieName}`;
     const omdbSearchUrl = `${OMDB_BASE_URL}&s=${movieName}`;
