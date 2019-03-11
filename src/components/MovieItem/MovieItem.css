@@ -21,3 +21,8 @@
   font-size: 14px;
   padding: 4px;
 }
+
+img {
+  max-width: 185px;
+  overflow: hidden;
+}

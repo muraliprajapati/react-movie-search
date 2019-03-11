@@ -5,15 +5,15 @@ const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w185';
 
 const MovieItem = (props) => {
   const { movie } = props;
-  const imgUrl = `${IMAGE_BASE_URL}${movie.poster_path}`;
+  // const imgUrl = `${IMAGE_BASE_URL}${movie.poster_path}`;
   return (
     <div className="movie-item">
-      <img src={imgUrl} />
+      <img src={movie.Poster} />
       <div className="movie-info">
-        <span>{movie.title}</span>
-        <span>
+        <span>{movie.Title}</span>
+        {/* <span>
           {movie.vote_average} <span>⭐</span>
-        </span>
+        </span> */}
       </div>
     </div>
   );
